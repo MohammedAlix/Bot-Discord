@@ -1,6 +1,8 @@
 
 This Discord bot is designed to play music from YouTube or SoundCloud in a public server. It allows users to control the bot's playback, manage the queue of songs, and enjoy music together with other members in voice channels.
 
+NOTE: install the required dependencies by running npm install discord.js discord-player in the terminal.
+
 The bot listens for commands prefixed with ! and supports the following commands:
 
 !play <YouTube or SoundCloud link or search query>: Plays a song based on the provided link or search query. If there are songs already in the queue, the requested song will be added to the queue and played when it's the bot's turn.
